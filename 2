@@ -1,0 +1,15 @@
+testscores = [99,78,85,96, 199,728,5,9]
+highscore = 0
+ 
+highscore = testscores[0]
+lowscore = testscores[0]
+
+print("The highest test score is:", highscore)
+print("The lowest test score is:", lowscore)
+
+for score in testscores:
+    if score > highscore:
+        highscore = score
+    if score < lowscore:
+        lowscore = score
+ 
